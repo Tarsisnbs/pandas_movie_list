@@ -1,4 +1,23 @@
+# Ambiente virtual
 venv/
+.env/
+
+# Arquivos Python compilados
 __pycache__/
-*.pyc
-.DS_Store
+*.py[cod]
+*$py.class
+
+# Dados temporários
+*.csv
+*.tsv
+*.out
+
+# VSCode e outros IDEs
+.vscode/
+.idea/
+
+# Arquivos de testes e relatórios
+htmlcov/
+.coverage
+.cache/
+.pytest_cache/
