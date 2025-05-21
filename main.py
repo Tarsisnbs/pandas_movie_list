@@ -25,6 +25,10 @@ def fetch_data_omdb(movies, api_key):
     
     return pd.DataFrame(movies_data)
 
+def salvar_csv(df, file_name):
+    df.to_csv(file_name, index=False)
+    print(f'Arquivo {file_name} criado com sucesso')
+
 if __name__ == '__main__':
     filmes = [
         "The Matrix",
